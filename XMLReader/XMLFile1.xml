@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<user xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+       id="1" user-type="2">
+	<first-name>Rui</first-name>
+	<last-name>Jarimba</last-name>
+	<age>30</age>
+	<email>email@somewhere.com</email>
+	<address>
+		<street>my street 1</street>
+		<postal-code>1000-001</postal-code>
+		<city>Lisbon</city>
+		<country>Portugal</country>
+	</address>
+	<delivery-address>
+		<street>another street</street>
+		<postal-code>1000-002</postal-code>
+		<city>Lisbon</city>
+		<country>Portugal</country>
+	</delivery-address>
+	<cart>
+		<items>
+			<book reference="978-1401301958" price="34.95">
+				<name>Jamie's Italy</name>
+				<author>Jamie Oliver</author>
+				<description>Italian food made by Jamie Oliver!</description>
+			</book>
+			<book reference="B0042TL15I" price="59.95">
+				<name>Ensaio Sobre a Cegueira</name>
+				<author>José Saramago</author>
+			</book>
+			<cd reference="B000N3ST9I" price="15">
+				<artist>Machine Head</artist>
+				<name>The Blackening</name>
+				<genre>Trash Metal</genre>
+			</cd>
+			<dvd reference="B00005JKZY" price="14.99">
+				<name>The Lord of the Rings: The Return of the King</name>
+				<genre>Action, Adventure, Drama </genre>
+			</dvd>
+		</items>
+	</cart>
+</user>
